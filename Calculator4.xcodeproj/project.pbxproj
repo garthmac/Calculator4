@@ -13,6 +13,7 @@
 		88C1ACEF1ADDA6F1007EDC89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C1ACEE1ADDA6F1007EDC89 /* Images.xcassets */; };
 		88C1ACF21ADDA6F1007EDC89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C1ACF01ADDA6F1007EDC89 /* LaunchScreen.xib */; };
 		88C1ACFE1ADDA6F1007EDC89 /* Calculator4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1ACFD1ADDA6F1007EDC89 /* Calculator4Tests.swift */; };
+		88C1AD081ADDA745007EDC89 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C1AD071ADDA745007EDC89 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		88C1ACF71ADDA6F1007EDC89 /* Calculator4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C1ACFC1ADDA6F1007EDC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88C1ACFD1ADDA6F1007EDC89 /* Calculator4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator4Tests.swift; sourceTree = "<group>"; };
+		88C1AD071ADDA745007EDC89 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				88C1ACE71ADDA6F1007EDC89 /* AppDelegate.swift */,
 				88C1ACE91ADDA6F1007EDC89 /* ViewController.swift */,
+				88C1AD071ADDA745007EDC89 /* CalculatorBrain.swift */,
 				88C1ACEB1ADDA6F1007EDC89 /* Main.storyboard */,
 				88C1ACEE1ADDA6F1007EDC89 /* Images.xcassets */,
 				88C1ACF01ADDA6F1007EDC89 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C1AD081ADDA745007EDC89 /* CalculatorBrain.swift in Sources */,
 				88C1ACEA1ADDA6F1007EDC89 /* ViewController.swift in Sources */,
 				88C1ACE81ADDA6F1007EDC89 /* AppDelegate.swift in Sources */,
 			);
